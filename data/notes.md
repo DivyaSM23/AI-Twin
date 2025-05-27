@@ -1,0 +1,2 @@
+- Need to check in with design team on new dashboard layout
+- Reminder: Demo for project Beta on Thursday

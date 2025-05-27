@@ -1,0 +1,32 @@
+[
+  {
+    "subject": "Follow up on project Alpha",
+    "body": "We need to finalize the budget with Alex by Friday.",
+    "from": "pm@company.com",
+    "timestamp": "2025-05-25T10:00:00"
+  },
+  {
+    "subject": "Design review scheduled",
+    "body": "The design team scheduled a review of the new dashboard UI for Wednesday afternoon.",
+    "from": "design@company.com",
+    "timestamp": "2025-05-25T11:30:00"
+  },
+  {
+    "subject": "Feedback on Beta demo",
+    "body": "Great job on the Beta demo! Just a few tweaks left before client presentation.",
+    "from": "client-relations@company.com",
+    "timestamp": "2025-05-24T16:45:00"
+  },
+  {
+    "subject": "Team Lunch Reminder",
+    "body": "Friendly reminder: Team lunch tomorrow at noon. Let us know if you have dietary restrictions.",
+    "from": "hr@company.com",
+    "timestamp": "2025-05-26T09:00:00"
+  },
+  {
+    "subject": "Urgent: Data sync issue",
+    "body": "We're seeing a mismatch in sync between backend and reports. Can you look into it today?",
+    "from": "qa@company.com",
+    "timestamp": "2025-05-25T14:20:00"
+  }
+]
