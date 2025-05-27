@@ -1,0 +1,7 @@
+sentence-transformers
+chromadb
+transformers
+torch
+spacy
+accelerate
+huggingface_hub
