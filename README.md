@@ -1,6 +1,6 @@
-# 🧠 AI Twin at Work
+# AI Twin at Work
 
-## 📌 Overview
+## Overview
 
 **AI Twin at Work** is a personalized, local-first assistant that simulates an intelligent daily work companion. It ingests your emails, calendar events, and notes, and helps you:
 
@@ -9,11 +9,9 @@
 - Query your day in natural language
 - View structured calendar and note insights
 
-> This prototype is completely offline and privacy-preserving using open-source models.
-
 ---
 
-## 🚀 Problem It Solves
+## Problem It Solves
 
 In today’s fast-paced work environments, people struggle to keep track of:
 
@@ -35,7 +33,7 @@ The solution is built using:
 - **Hugging Face Transformers** for summarization and Q&A
 - **HTML/JS UI** with a tabbed layout
 
-### 📂 Workflow
+### Workflow
 
 1. **Data Ingestion**: Parses `.json` email/calendar + `.md` notes
 2. **Embedding & Indexing**: Semantic vector store with Chroma
@@ -45,7 +43,7 @@ The solution is built using:
 
 ---
 
-## 💻 Setup Instructions
+## Setup Instructions
 
 ### 1. Clone the Repository
 
@@ -87,7 +85,7 @@ Then open your browser at: [http://localhost:8000](http://localhost:8000)
 
 ---
 
-## 🧪 Example Questions You Can Ask
+## Example Questions You Can Ask
 
 - "What did I do today?"
 - "What meetings involved Alex?"
@@ -95,7 +93,7 @@ Then open your browser at: [http://localhost:8000](http://localhost:8000)
 
 ---
 
-## ✨ Features Planned
+## Features Planned
 
 - ⏳ Real-time ingestion from Gmail/Google Calendar
 - 📅 Date-wise filter for meetings
