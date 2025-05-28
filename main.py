@@ -60,11 +60,14 @@ def get_summary():
                     })
                 except:
                     calendar_events.append({"raw": d})
+            elif d.startswith("Notes:\n"):
+                notes_text = d.replace("Notes:\n", "").strip()
+                notes.extend([line.strip() for line in notes_text.split("\n") if line.strip()])
 
     return {
-        "summary": summary,
-        "calendar": calendar_events,
-        "notes": notes
+            "summary": summary,
+            "calendar": calendar_events,
+            "notes": notes
     }
 
 @app.post("/ask")
